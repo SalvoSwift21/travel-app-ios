@@ -497,8 +497,8 @@
 				CEAAD391223A80A900E7C5D8 /* Sources */,
 				CEAAD392223A80A900E7C5D8 /* Frameworks */,
 				CEAAD393223A80A900E7C5D8 /* Resources */,
-				377106953E320ED7A46165CD /* [CP] Copy Pods Resources */,
 				6C456EC9E1C4964114283675 /* [CP] Embed Pods Frameworks */,
+				F5AB9D9291E8CDA255FDE638 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -536,7 +536,7 @@
 				CEFB9C6A242A3A420027A662 /* Sources */,
 				CEFB9C6B242A3A420027A662 /* Frameworks */,
 				CEFB9C6C242A3A420027A662 /* Resources */,
-				17927FF5977538AA89C62729 /* [CP] Copy Pods Resources */,
+				F17EB2AD4D20D723B675400C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -686,23 +686,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		17927FF5977538AA89C62729 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		35397292C89793C78ABF9491 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -723,23 +706,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		377106953E320ED7A46165CD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C456EC9E1C4964114283675 /* [CP] Embed Pods Frameworks */ = {
@@ -801,6 +767,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17EB2AD4D20D723B675400C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AB9D9291E8CDA255FDE638 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1129,13 +1129,14 @@
 			baseConfigurationReference = 09FA86A706F9E1C98E3C707F /* Pods-TravelpayoutsTravelApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RGD5MKD799;
 				INFOPLIST_FILE = TravelpayoutsTravelApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.7.3;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.sdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.travel.payout.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TravelpayoutsTravelApp/Source/TravelpayoutsTravelApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1148,14 +1149,18 @@
 			baseConfigurationReference = 0B55F0ED1CDC9C2AA4BEBAFD /* Pods-TravelpayoutsTravelApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGD5MKD799;
 				INFOPLIST_FILE = TravelpayoutsTravelApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.7.3;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.sdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.travel.payout.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TravelpayoutsTravelApp/Source/TravelpayoutsTravelApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

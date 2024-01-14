@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>partner_marker</key>
-	<string></string>
+	<string>250400</string>
 	<key>api_token</key>
-	<string></string>
+	<string>40958a17fbace6aed15acbd1fb1f5929</string>
 	<key>appodeal_key</key>
 	<string></string>
 	<key>flights_enabled</key>
@@ -85,9 +85,9 @@
 	<key>color_params</key>
 	<dict>
 		<key>main_color</key>
-		<string>#9C6CBE</string>
+		<string>#95BDD2</string>
 		<key>action_color</key>
-		<string>#CE0755</string>
+		<string>#D26455</string>
 	</dict>
 </dict>
 </plist>

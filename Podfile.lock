@@ -98,9 +98,9 @@ PODS:
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.8)
-  - FirebaseCoreInternal (10.4.0):
+  - FirebaseCoreInternal (10.19.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseInstallations (10.4.0):
+  - FirebaseInstallations (10.19.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
@@ -167,11 +167,11 @@ PODS:
   - KeychainAccess (4.2.2)
   - lottie-ios (3.5.0)
   - MBProgressHUD (1.2.0)
-  - nanopb (2.30909.0):
-    - nanopb/decode (= 2.30909.0)
-    - nanopb/encode (= 2.30909.0)
-  - nanopb/decode (2.30909.0)
-  - nanopb/encode (2.30909.0)
+  - nanopb (2.30909.1):
+    - nanopb/decode (= 2.30909.1)
+    - nanopb/encode (= 2.30909.1)
+  - nanopb/decode (2.30909.1)
+  - nanopb/encode (2.30909.1)
   - Neon (0.4.0)
   - OMSDK_Appodeal (1.4.2.0)
   - PhoneNumberKit (3.3.4):
@@ -278,8 +278,6 @@ SPEC REPOS:
     - BidMachineApiCore
     - BidMachineBiddingCore
     - BidMachineNetworkCore
-    - StackIAB
-    - StackModules
   trunk:
     - APDBidMachineAdapter
     - APDIABAdapter
@@ -371,8 +369,8 @@ SPEC CHECKSUMS:
   Firebase: 444b35a9c568a516666213c2f6cccd10cb12559f
   FirebaseAnalytics: 24cb27b52b2e11ad5013528195b4ca0755dec960
   FirebaseCore: 55e7ae35991ccca4db03ff8d8df6ed5f17a3e4c7
-  FirebaseCoreInternal: e301297f4c15a17489e48ed722d733b1578e0c02
-  FirebaseInstallations: 36b38c733fd37e50857e5e8d74138648f466f18c
+  FirebaseCoreInternal: b444828ea7cfd594fca83046b95db98a2be4f290
+  FirebaseInstallations: 033d199474164db20c8350736842a94fe717b960
   FloatingPanel: a27e7827e0f710fa6236fe2596dd1b5484cb4fc1
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GoogleAppMeasurement: e490e248af3da95afe8fa8e7baac232dc8d020b7
@@ -382,7 +380,7 @@ SPEC CHECKSUMS:
   KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
   lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
   OMSDK_Appodeal: c3e648a353665dc4c0a8235d6e7efa66b8277ab5
   PhoneNumberKit: 441e8b26ec88d598e3591de9061eff18f5dd12e8
@@ -405,4 +403,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 44ce4aa07ee148d017bd6d81174d796c811265a3
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.13.0
