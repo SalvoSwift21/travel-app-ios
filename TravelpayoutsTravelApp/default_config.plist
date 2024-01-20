@@ -15,7 +15,7 @@
 	<key>default_locale</key>
 	<string>en</string>
 	<key>firebase_enabled</key>
-	<false/>
+	<true/>
 	<key>app_description</key>
 	<dict>
 		<key>en</key>

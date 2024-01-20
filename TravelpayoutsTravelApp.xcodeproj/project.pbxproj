@@ -11,6 +11,7 @@
 		4693D2C7240FD3CF0036AACE /* TemplateAppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693D2C6240FD3CF0036AACE /* TemplateAppConfiguration.swift */; };
 		4693D2CA240FD8760036AACE /* App.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE35D8DF229C24C800EF8901 /* App.xcassets */; };
 		46DC5E372424CDDF00C110E1 /* default_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46DC5E362424CDDF00C110E1 /* default_config.plist */; };
+		625700722B5C0E9600608ECD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 625700712B5C0E9300608ECD /* GoogleService-Info.plist */; };
 		7573681B398C6D04C4CD3CAC /* Pods_TravelpayoutsTravelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B098AE253B4FF377B2B6A383 /* Pods_TravelpayoutsTravelApp.framework */; };
 		BDC87C5D2F916B0E16727839 /* Pods_SampleFlightsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B0F2337CCDD8336ED3B267 /* Pods_SampleFlightsApp.framework */; };
 		CE19A3C52434F39100A30320 /* SampleFlightsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A3C42434F39100A30320 /* SampleFlightsAppTests.swift */; };
@@ -42,7 +43,6 @@
 		CE900A0B22A5327700330E56 /* ASTColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE900A0A22A5327700330E56 /* ASTColorScheme.swift */; };
 		CE900A0D22A5389E00330E56 /* ASTJRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE900A0C22A5389E00330E56 /* ASTJRC.swift */; };
 		CEAAD399223A80A900E7C5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD398223A80A900E7C5D8 /* AppDelegate.swift */; };
-		CEB0C73322B3B41E00D454C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEB0C73222B3B41E00D454C8 /* GoogleService-Info.plist */; };
 		CECC2EC622D5F964003F3996 /* HLAlertsFabric.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC2EC422D5F964003F3996 /* HLAlertsFabric.m */; };
 		CED20042231D42580010A8EB /* AppLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED20041231D42580010A8EB /* AppLocalizations.swift */; };
 		CED20045231D45750010A8EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED20047231D45750010A8EB /* Localizable.strings */; };
@@ -80,6 +80,7 @@
 		46CC90E6254C32D50030925E /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46CC90EE254C32D60030925E /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
 		46DC5E362424CDDF00C110E1 /* default_config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_config.plist; sourceTree = "<group>"; };
+		625700712B5C0E9300608ECD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6CA826E536DF850222CAE0B4 /* Pods-TravelpayoutsTravelAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelpayoutsTravelAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelpayoutsTravelAppTests/Pods-TravelpayoutsTravelAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		72B0F2337CCDD8336ED3B267 /* Pods_SampleFlightsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFlightsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92595E2F54527F0AB6C27445 /* Pods-SampleFlightsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFlightsAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleFlightsAppTests/Pods-SampleFlightsAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,7 +147,6 @@
 		CEAAD395223A80A900E7C5D8 /* TravelpayoutsTravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelpayoutsTravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAAD398223A80A900E7C5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAAD3A4223A80AA00E7C5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEB0C73222B3B41E00D454C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CECC2EC422D5F964003F3996 /* HLAlertsFabric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertsFabric.m; sourceTree = "<group>"; };
 		CECC2EC522D5F964003F3996 /* HLAlertsFabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAlertsFabric.h; sourceTree = "<group>"; };
 		CED20041231D42580010A8EB /* AppLocalizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalizations.swift; sourceTree = "<group>"; };
@@ -419,7 +419,7 @@
 		CEAAD397223A80A900E7C5D8 /* TravelpayoutsTravelApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEB0C73222B3B41E00D454C8 /* GoogleService-Info.plist */,
+				625700712B5C0E9300608ECD /* GoogleService-Info.plist */,
 				46DC5E362424CDDF00C110E1 /* default_config.plist */,
 				CEAAD3A4223A80AA00E7C5D8 /* Info.plist */,
 				CEAAD398223A80A900E7C5D8 /* AppDelegate.swift */,
@@ -631,7 +631,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB0C73322B3B41E00D454C8 /* GoogleService-Info.plist in Resources */,
 				CE35D81E22983B0300EF8901 /* InfoScreenAboutCell.xib in Resources */,
 				CE35D8EE229D5CC400EF8901 /* AppIcon.xcassets in Resources */,
 				CE35D81D22983B0300EF8901 /* InfoScreenViewController.xib in Resources */,
@@ -640,6 +639,7 @@
 				CE900A0922A52A1300330E56 /* LaunchScreen.xib in Resources */,
 				4693D2CA240FD8760036AACE /* App.xcassets in Resources */,
 				CE35D82222983B0300EF8901 /* InfoScreenVersionCell.xib in Resources */,
+				625700722B5C0E9600608ECD /* GoogleService-Info.plist in Resources */,
 				46DC5E372424CDDF00C110E1 /* default_config.plist in Resources */,
 				CED20045231D45750010A8EB /* Localizable.strings in Resources */,
 			);
@@ -1129,15 +1129,18 @@
 			baseConfigurationReference = 09FA86A706F9E1C98E3C707F /* Pods-TravelpayoutsTravelApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RGD5MKD799;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8QQ67A73Y;
 				INFOPLIST_FILE = TravelpayoutsTravelApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.7.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.travel.payout.app;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.i.travel.payout.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TravelpayoutsTravelApp/Source/TravelpayoutsTravelApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1151,14 +1154,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RGD5MKD799;
+				DEVELOPMENT_TEAM = P8QQ67A73Y;
 				INFOPLIST_FILE = TravelpayoutsTravelApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.7.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.travel.payout.app;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.i.travel.payout.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TravelpayoutsTravelApp/Source/TravelpayoutsTravelApp-Bridging-Header.h";

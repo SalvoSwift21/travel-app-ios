@@ -77,6 +77,8 @@ private extension InfoScreenPresenter {
 
         cellModels.append(buildSettingsCellModel())
 
+        cellModels.append(buildPrivacyCellModel())
+
         if ConfigManager.shared.feedbackEmail.contains("@") {
             cellModels.append(buildEmailCellModel())
         }
@@ -112,6 +114,10 @@ private extension InfoScreenPresenter {
 
     func buildSettingsCellModel() -> InfoScreenBasicCellModel {
         return InfoScreenBasicCellModel(type: .settings, title: TemplateAppLocalizations.shared.settingsScreenTitle)
+    }
+    
+    func buildPrivacyCellModel() -> InfoScreenExternalCellModel {
+        return InfoScreenExternalCellModel(name: "Privacy Policy", url: "https://www.iubenda.com/privacy-policy/44836374")
     }
 
     func buildEmailCellModel() -> InfoScreenBasicCellModel {
